@@ -1,0 +1,17 @@
+/*---HEADER---*/  
+header{
+    nav{
+        .container-fluid{
+            background-color: $color-primario;
+        }
+         .logo{
+            width: 75px;
+            height: 80px;   
+        }
+        .nav-item{
+            border-radius: 10px;
+            background-color: $color-secundario;
+            margin-left: 10px;
+        }    
+    }
+}

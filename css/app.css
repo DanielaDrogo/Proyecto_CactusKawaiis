@@ -1,43 +1,27 @@
+@media (min-width: 0px) and (max-width: 600px) {
+  .contenedor-contacto {
+    flex-direction: column;
+  }
+}
+/*---FOOTER---*/
+footer {
+  background-color: #ff34aa;
+  width: auto;
+  height: 130px;
+  text-align: center;
+  padding: 5px;
+}
+footer p {
+  color: #ffffff;
+}
+
 * {
   font-family: "Nunito Sans", "sans serif";
   padding: 0px;
   margin: 0px;
 }
 
-/*---HEADER---*/
-header nav .container-fluid {
-  background-color: #86fc58;
-}
-header nav .logo {
-  width: 75px;
-  height: 80px;
-}
-header nav .nav-item {
-  border-radius: 10px;
-  background-color: #ad68fc;
-  margin-left: 10px;
-}
-
 /*---MAIN---*/
-/*exclusivo de pagina index*/
-main #carouselExampleIndicators {
-  justify-content: center;
-}
-main #carouselExampleIndicators .d-block {
-  width: 100%;
-  height: 600px;
-  object-fit: cover;
-  padding-bottom: 10px;
-}
-main #titulo-del-sitio {
-  font-family: "Mogra", "cursive";
-  font-style: normal;
-  font-size: 50px;
-  text-align: center;
-  font-weight: 700;
-}
-
-/*-----*/
 main {
   background-color: #ffffff;
   width: auto;
@@ -62,10 +46,6 @@ main h2 {
   font-size: 30px;
   font-weight: 600;
 }
-main img {
-  width: 230px;
-  height: 230px;
-}
 main .contenedor-productos {
   display: flex;
   flex-direction: row;
@@ -85,7 +65,30 @@ main .contenedor-productos .producto {
   border-radius: 10px;
   color: #9400d3;
 }
+main .contenedor-productos .producto img {
+  width: 230px;
+  height: 230px;
+}
 
+/*exclusivo de pagina index*/
+main #carouselExampleIndicators {
+  justify-content: center;
+}
+main #carouselExampleIndicators .d-block {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  padding-bottom: 10px;
+}
+main #titulo-del-sitio {
+  font-family: "Mogra", "cursive";
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+}
+
+/*-----*/
 /*exclusivo pagina "productos"*/
 main .contenedor-selector {
   display: flex;
@@ -146,22 +149,18 @@ main .contenedor-contacto .contenedor-links .contenedor-links2 .redes-icono img 
 }
 
 /*-----*/
-/*---FOOTER---*/
-footer {
-  background-color: #ff34aa;
-  width: auto;
-  height: 130px;
-  text-align: center;
-  padding: 5px;
+/*---HEADER---*/
+header nav .container-fluid {
+  background-color: #86fc58;
 }
-footer p {
-  color: #ffffff;
+header nav .logo {
+  width: 75px;
+  height: 80px;
 }
-
-@media (min-width: 0px) and (max-width: 600px) {
-  .contenedor-contacto {
-    flex-direction: column;
-  }
+header nav .nav-item {
+  border-radius: 10px;
+  background-color: #ad68fc;
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=app.css.map */
