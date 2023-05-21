@@ -1,0 +1,167 @@
+* {
+  font-family: "Nunito Sans", "sans serif";
+  padding: 0px;
+  margin: 0px;
+}
+
+/*---HEADER---*/
+header nav .container-fluid {
+  background-color: #86fc58;
+}
+header nav .logo {
+  width: 75px;
+  height: 80px;
+}
+header nav .nav-item {
+  border-radius: 10px;
+  background-color: #ad68fc;
+  margin-left: 10px;
+}
+
+/*---MAIN---*/
+/*exclusivo de pagina index*/
+main #carouselExampleIndicators {
+  justify-content: center;
+}
+main #carouselExampleIndicators .d-block {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  padding-bottom: 10px;
+}
+main #titulo-del-sitio {
+  font-family: "Mogra", "cursive";
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+}
+
+/*-----*/
+main {
+  background-color: #ffffff;
+  width: auto;
+  height: auto;
+}
+main h4 {
+  color: #ff00ff;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+main .titulo-pagina {
+  margin: 30px;
+}
+main .titulo-pagina h1 {
+  text-align: center;
+  color: #033a00;
+  font-weight: bold;
+  font-size: 40px;
+}
+main h2 {
+  color: #058c00;
+  font-size: 30px;
+  font-weight: 600;
+}
+main img {
+  width: 230px;
+  height: 230px;
+}
+main .contenedor-productos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .contenedor-productos .producto {
+  background-color: #d1ff7a;
+  width: 250px;
+  height: 400px;
+  display: inline-flex;
+  flex-direction: column;
+  padding-top: 50px;
+  margin: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 10px;
+  color: #9400d3;
+}
+
+/*exclusivo pagina "productos"*/
+main .contenedor-selector {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 3px;
+}
+main .contenedor-selector #selector {
+  padding: 3px;
+}
+main .botones {
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  padding: 40px;
+  list-style-type: none;
+}
+main .botones li {
+  padding: 5px;
+  background-color: #7134ff;
+  margin: 10px;
+}
+main .botones li .botones2 {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/*-----*/
+/*exclusivo pagina "sobre-cactuskawaiis"*/
+main .contenedor-presentacion {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .contenedor-presentacion .presentacion {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 5%;
+}
+
+/*-----*/
+/*exclusivo pagina "contacto"*/
+main .contenedor-contacto {
+  display: flex;
+  justify-content: center;
+}
+main .contenedor-contacto .contenedor-links {
+  padding: 50px;
+}
+main .contenedor-contacto .contenedor-links .contenedor-links2 {
+  display: flex;
+}
+main .contenedor-contacto .contenedor-links .contenedor-links2 .redes-icono img {
+  width: 50;
+  height: 50;
+}
+
+/*-----*/
+/*---FOOTER---*/
+footer {
+  background-color: #ff34aa;
+  width: auto;
+  height: 130px;
+  text-align: center;
+  padding: 5px;
+}
+footer p {
+  color: #ffffff;
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+  .contenedor-contacto {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
