@@ -8,8 +8,8 @@
 /*---MAIN---*/
 main{
     background-color: $color-terciario;
-    width: auto;
-    height: auto; 
+    /*width: auto;
+    height: auto; */
     h4{
         color: $color-hexanario;
         font-weight: bold;
@@ -132,6 +132,12 @@ main{
     .contenedor-contacto{
         display: flex;
         justify-content: center;
+        iframe{
+            display: flex;
+        }
+        .pie-de-mapa{
+            padding-bottom: 20px;
+        }
         .contenedor-links{
             padding: 50px;
             .contenedor-links2{
