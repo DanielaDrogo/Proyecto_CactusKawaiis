@@ -6,8 +6,6 @@
 /*---FOOTER---*/
 footer {
   background-color: #ff34aa;
-  /*width: auto;
-  height: 130px;*/
   text-align: center;
   padding: 5px;
 }
@@ -24,8 +22,6 @@ footer p {
 /*---MAIN---*/
 main {
   background-color: #ffffff;
-  /*width: auto;
-  height: auto; */
 }
 main h4 {
   color: #ff00ff;
