@@ -12,7 +12,7 @@ body{
 /*---HEADER---*/  
 header{
     .container-fluid{
-        background-color: #86fc58;
+        background-color: $color-boostrap;
     }
     .logo{
         width: 75px;

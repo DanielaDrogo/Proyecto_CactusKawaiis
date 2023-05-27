@@ -7,10 +7,6 @@
 
 /*---MAIN---*/
 
-
-
-@import "../basics/colors";
-
 @each $nombre-color, $color in $colores{
     .titulo-#{$nombre-color}{
         color: $color;
@@ -18,15 +14,13 @@
     .fondo-#{$nombre-color}{
         background-color: $color;
     }
-    
+    .borde-#{$nombre-color}{
+        border-color: $color;
+    }
 }
 
-
-
 main{
-    /*background-color: $color-terciario;*/
     h4{
-        
         font-weight: bold;
         text-transform: capitalize;
     }
@@ -59,7 +53,6 @@ main{
             font-size: 30px;
             font-weight: bold;
             border-radius: 10px;
-            /*color: $color-quinario;*/
             &:hover{
                 transform: scale(1.1);
                 transition: all 0.3s ease;
@@ -79,7 +72,6 @@ main{
                 padding: 5px;
                 margin: 10px;
                 .titulo-terciario{
-                   
                     font-weight: bold;
                 }
             }
@@ -129,9 +121,8 @@ main{
 
 /*exclusivo pagina "sobre-cactuskawaiis"*/
 main{
-    .contenedor-presentacion{
+    .borde-quinario{
         border-style: double;
-        border-color: #7134ff;
         margin: 10px;
         display: flex;
         flex-direction: column;
