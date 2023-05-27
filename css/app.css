@@ -3,10 +3,27 @@
     flex-direction: column;
   }
 }
-/*---FOOTER---*/
-footer {
-  text-align: center;
-  padding: 5px;
+body {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 80px auto 130px;
+  grid-template-areas: "header" "main" "footer";
+}
+
+/*---HEADER---*/
+header .container-fluid {
+  z-index: 2;
+  background-color: #86fc58;
+}
+header .logo {
+  width: 75px;
+  height: 80px;
+}
+header .nav-item {
+  border-radius: 10px;
+  background: rgb(118, 0, 255);
+  background: radial-gradient(circle, rgb(118, 0, 255) 0%, rgb(119, 28, 224) 51%, rgb(173, 104, 252) 100%);
+  margin-left: 10px;
 }
 
 * {
@@ -288,26 +305,10 @@ main .contenedor-contacto .contenedor-links .contenedor-links2 .redes-icono img 
 }
 
 /*-----*/
-body {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: 80px auto 130px;
-  grid-template-areas: "header" "main" "footer";
-}
-
-/*---HEADER---*/
-header .container-fluid {
-  background-color: #86fc58;
-}
-header .logo {
-  width: 75px;
-  height: 80px;
-}
-header .nav-item {
-  border-radius: 10px;
-  background: rgb(118, 0, 255);
-  background: radial-gradient(circle, rgb(118, 0, 255) 0%, rgb(119, 28, 224) 51%, rgb(173, 104, 252) 100%);
-  margin-left: 10px;
+/*---FOOTER---*/
+footer {
+  text-align: center;
+  padding: 5px;
 }
 
 /*# sourceMappingURL=app.css.map */

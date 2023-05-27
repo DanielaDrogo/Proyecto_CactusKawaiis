@@ -12,6 +12,7 @@ body{
 /*---HEADER---*/  
 header{
     .container-fluid{
+        z-index: 2;
         background-color: $color-boostrap;
     }
     .logo{
