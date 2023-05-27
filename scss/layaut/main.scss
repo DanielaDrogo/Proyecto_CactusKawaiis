@@ -6,24 +6,39 @@
     }
 
 /*---MAIN---*/
+
+
+
+@import "../basics/colors";
+
+@each $nombre-color, $color in $colores{
+    .titulo-#{$nombre-color}{
+        color: $color;
+    }
+    .fondo-#{$nombre-color}{
+        background-color: $color;
+    }
+    
+}
+
+
+
 main{
-    background-color: $color-terciario;
+    /*background-color: $color-terciario;*/
     h4{
-        color: $color-hexanario;
+        
         font-weight: bold;
         text-transform: capitalize;
     }
     .titulo-pagina{
         margin: 30px;
         h1{
-            text-align: center;
-            color: $color-heptanario;
+            text-align: center;          
             font-weight: bold;
             font-size: 40px;
         }
     }  
     h2{
-        color: $color-octanario;
         font-size: 30px;
         font-weight: 600;
     }
@@ -44,7 +59,7 @@ main{
             font-size: 30px;
             font-weight: bold;
             border-radius: 10px;
-            color: $color-quinario;
+            /*color: $color-quinario;*/
             &:hover{
                 transform: scale(1.1);
                 transition: all 0.3s ease;
@@ -62,10 +77,9 @@ main{
             list-style-type: none;
             li{
                 padding: 5px;
-                background-color: $color-nonario;
                 margin: 10px;
-                .botones2{
-                    color: $color-terciario;
+                .titulo-terciario{
+                   
                     font-weight: bold;
                 }
             }
@@ -117,7 +131,7 @@ main{
 main{
     .contenedor-presentacion{
         border-style: double;
-        border-color: $color-octanario;
+        border-color: #7134ff;
         margin: 10px;
         display: flex;
         flex-direction: column;

@@ -5,12 +5,12 @@
 }
 /*---FOOTER---*/
 footer {
-  background-color: #ff34aa;
+  /*background-color: $color-decimal;*/
   text-align: center;
   padding: 5px;
 }
 footer p {
-  color: #ffffff;
+  /*color: $color-terciario;*/
 }
 
 * {
@@ -20,11 +20,90 @@ footer p {
 }
 
 /*---MAIN---*/
-main {
+.titulo-primario {
+  color: #86fc58;
+}
+
+.fondo-primario {
+  background-color: #86fc58;
+}
+
+.titulo-secundario {
+  color: #ad68fc;
+}
+
+.fondo-secundario {
+  background-color: #ad68fc;
+}
+
+.titulo-terciario {
+  color: #ffffff;
+}
+
+.fondo-terciario {
   background-color: #ffffff;
 }
-main h4 {
+
+.titulo-cuaternario {
+  color: #d1ff7a;
+}
+
+.fondo-cuaternario {
+  background-color: #d1ff7a;
+}
+
+.titulo-quinario {
+  color: #9400d3;
+}
+
+.fondo-quinario {
+  background-color: #9400d3;
+}
+
+.titulo-hexanario {
   color: #ff00ff;
+}
+
+.fondo-hexanario {
+  background-color: #ff00ff;
+}
+
+.titulo-heptanario {
+  color: #045000;
+}
+
+.fondo-heptanario {
+  background-color: #045000;
+}
+
+.titulo-octanario {
+  color: #058c00;
+}
+
+.fondo-octanario {
+  background-color: #058c00;
+}
+
+.titulo-nonario {
+  color: #7134ff;
+}
+
+.fondo-nonario {
+  background-color: #7134ff;
+}
+
+.titulo-decimal {
+  color: #d302d3;
+}
+
+.fondo-decimal {
+  background-color: #d302d3;
+}
+
+main {
+  /*background-color: $color-terciario;*/
+}
+main h4 {
   font-weight: bold;
   text-transform: capitalize;
 }
@@ -33,12 +112,10 @@ main .titulo-pagina {
 }
 main .titulo-pagina h1 {
   text-align: center;
-  color: #033a00;
   font-weight: bold;
   font-size: 40px;
 }
 main h2 {
-  color: #058c00;
   font-size: 30px;
   font-weight: 600;
 }
@@ -60,7 +137,7 @@ main .contenedor-productos .producto {
   font-size: 30px;
   font-weight: bold;
   border-radius: 10px;
-  color: #9400d3;
+  /*color: $color-quinario;*/
 }
 main .contenedor-productos .producto:hover {
   transform: scale(1.1);
@@ -79,11 +156,9 @@ main .contenedor-productos .botones {
 }
 main .contenedor-productos .botones li {
   padding: 5px;
-  background-color: #7134ff;
   margin: 10px;
 }
-main .contenedor-productos .botones li .botones2 {
-  color: #ffffff;
+main .contenedor-productos .botones li .titulo-terciario {
   font-weight: bold;
 }
 
@@ -120,7 +195,7 @@ main .contenedor-selector #selector {
 /*exclusivo pagina "sobre-cactuskawaiis"*/
 main .contenedor-presentacion {
   border-style: double;
-  border-color: #058c00;
+  border-color: #7134ff;
   margin: 10px;
   display: flex;
   flex-direction: column;
@@ -190,18 +265,17 @@ body {
 }
 
 /*---HEADER---*/
-header nav .container-fluid {
+header .container-fluid {
   background-color: #86fc58;
 }
-header nav .logo {
+header .logo {
   width: 75px;
   height: 80px;
 }
-header nav .nav-item {
+header .nav-item {
   border-radius: 10px;
   background: rgb(118, 0, 255);
   background: radial-gradient(circle, rgb(118, 0, 255) 0%, rgb(119, 28, 224) 51%, rgb(173, 104, 252) 100%);
-  /*background-color: $color-secundario;*/
   margin-left: 10px;
 }
 

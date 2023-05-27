@@ -1,17 +1,11 @@
-/* Error: Undefined variable.
- *   ,
- * 3 |     background-color: $color-decimal;
- *   |                       ^^^^^^^^^^^^^^
- *   '
- *   scss\layaut\footer.scss 3:23  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 3 \2502      background-color: $color-decimal;\d\a   \2502                        ^^^^^^^^^^^^^^\a   \2575 \a   scss\\layaut\\footer.scss 3:23  root stylesheet";
+/*---FOOTER---*/
+footer {
+  /*background-color: $color-decimal;*/
+  text-align: center;
+  padding: 5px;
 }
+footer p {
+  /*color: $color-terciario;*/
+}
+
+/*# sourceMappingURL=footer.css.map */
