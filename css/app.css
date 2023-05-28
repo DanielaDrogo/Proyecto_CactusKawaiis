@@ -2,6 +2,13 @@
   .contenedor-contacto {
     flex-direction: column;
   }
+  .mapa {
+    padding: 10px;
+  }
+  iframe {
+    width: 500px;
+    height: 400px;
+  }
 }
 body {
   display: grid;
@@ -282,6 +289,11 @@ main .borde-quinario .logo-presentacion img {
 }
 
 /*-----*/
+/*exclusivo pagina "cuidado-de-cactus"*/
+main .caja-de-texto {
+  padding: 5%;
+}
+
 /*exclusivo pagina "contacto"*/
 main .contenedor-contacto {
   display: flex;
