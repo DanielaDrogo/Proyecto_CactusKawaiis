@@ -48,20 +48,12 @@ header .nav-item {
   background-color: #86fc58;
 }
 
-.borde-primario {
-  border-color: #86fc58;
-}
-
 .titulo-secundario {
   color: #ad68fc;
 }
 
 .fondo-secundario {
   background-color: #ad68fc;
-}
-
-.borde-secundario {
-  border-color: #ad68fc;
 }
 
 .titulo-terciario {
@@ -72,20 +64,12 @@ header .nav-item {
   background-color: #ffffff;
 }
 
-.borde-terciario {
-  border-color: #ffffff;
-}
-
 .titulo-cuaternario {
   color: #d1ff7a;
 }
 
 .fondo-cuaternario {
   background-color: #d1ff7a;
-}
-
-.borde-cuaternario {
-  border-color: #d1ff7a;
 }
 
 .titulo-quinario {
@@ -96,20 +80,12 @@ header .nav-item {
   background-color: #9400d3;
 }
 
-.borde-quinario {
-  border-color: #9400d3;
-}
-
 .titulo-hexanario {
   color: #ff00ff;
 }
 
 .fondo-hexanario {
   background-color: #ff00ff;
-}
-
-.borde-hexanario {
-  border-color: #ff00ff;
 }
 
 .titulo-heptanario {
@@ -120,20 +96,12 @@ header .nav-item {
   background-color: #045000;
 }
 
-.borde-heptanario {
-  border-color: #045000;
-}
-
 .titulo-octanario {
   color: #058c00;
 }
 
 .fondo-octanario {
   background-color: #058c00;
-}
-
-.borde-octanario {
-  border-color: #058c00;
 }
 
 .titulo-nonario {
@@ -144,10 +112,6 @@ header .nav-item {
   background-color: #7134ff;
 }
 
-.borde-nonario {
-  border-color: #7134ff;
-}
-
 .titulo-decimal {
   color: #d302d3;
 }
@@ -156,8 +120,38 @@ header .nav-item {
   background-color: #d302d3;
 }
 
-.borde-decimal {
-  border-color: #d302d3;
+.caja-de-texto-1 {
+  border-style: double;
+  border-color: #9400d3;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.caja-de-texto-1 .parrafo {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 5%;
+}
+
+.caja-de-texto-2 {
+  border-style: double;
+  border-color: #009456;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.caja-de-texto-2 .parrafo {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 5%;
 }
 
 main h4 {
@@ -249,21 +243,7 @@ main .contenedor-selector #selector {
 
 /*-----*/
 /*exclusivo pagina "sobre-cactuskawaiis"*/
-main .borde-quinario {
-  border-style: double;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-main .borde-quinario .presentacion {
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-  font-style: italic;
-  padding: 5%;
-}
-main .borde-quinario .logo-presentacion {
+main .logo-presentacion {
   width: 250px;
   height: 255px;
   margin-bottom: 60px;
@@ -283,17 +263,12 @@ main .borde-quinario .logo-presentacion {
     transform: translateX(10px);
   }
 }
-main .borde-quinario .logo-presentacion img {
+main .logo-presentacion img {
   width: 250px;
   height: 245px;
 }
 
 /*-----*/
-/*exclusivo pagina "cuidado-de-cactus"*/
-main .caja-de-texto {
-  padding: 5%;
-}
-
 /*exclusivo pagina "contacto"*/
 main .contenedor-contacto {
   display: flex;
