@@ -15,7 +15,7 @@ header{
         z-index: 2;
         background-color: $color-boostrap;
         #navbarSupportedContent{
-            padding: 0vh 20% 0vh 15%;
+            padding: 0% 20% 0% 15%;
         }
     }
     .logo{
@@ -27,8 +27,8 @@ header{
         background: rgb(118,0,255);
         background: radial-gradient(circle, rgba(118,0,255,1) 0%, rgba(119,28,224,1) 51%, rgba(173,104,252,1) 100%);
         margin-left: 10px;
-        .nav-link{
-            color: $color-boostrap-link !important;
+        .nav-link.active{
+            color: $color-boostrap-link;
             font-weight: bold;
         }
     }

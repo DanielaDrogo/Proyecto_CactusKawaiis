@@ -9,6 +9,32 @@
     width: 370px;
     height: 400px;
   }
+  .suculenta-demostracion {
+    width: 300px;
+    height: 100px;
+  }
+  .cactus-demostracion {
+    width: 300px;
+    height: 200px;
+  }
+  .crasa-demostracion {
+    width: 300px;
+    height: 400px;
+  }
+}
+@media (min-width: 450px) and (max-width: 3000px) {
+  .suculenta-demostracion {
+    width: 500px;
+    height: 300px;
+  }
+  .cactus-demostracion {
+    width: 500px;
+    height: 300px;
+  }
+  .crasa-demostracion {
+    width: 400px;
+    height: 500px;
+  }
 }
 body {
   display: grid;
@@ -23,7 +49,7 @@ header .container-fluid {
   background-color: #86fc58;
 }
 header .container-fluid #navbarSupportedContent {
-  padding: 0vh 20% 0vh 15%;
+  padding: 0% 20% 0% 15%;
 }
 header .logo {
   width: 75px;
@@ -35,8 +61,8 @@ header .nav-item {
   background: radial-gradient(circle, rgb(118, 0, 255) 0%, rgb(119, 28, 224) 51%, rgb(173, 104, 252) 100%);
   margin-left: 10px;
 }
-header .nav-item .nav-link {
-  color: #ffffff !important;
+header .nav-item .nav-link.active {
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -277,21 +303,6 @@ main .logo-presentacion {
 main .logo-presentacion img {
   width: 250px;
   height: 245px;
-}
-
-/*-----*/
-/*exclusivo pagina "cuidado de cactus"*/
-main .suculenta-demostracion {
-  width: 300px;
-  height: 200px;
-}
-main .cactus-demostracion {
-  width: 300px;
-  height: 200px;
-}
-main .crasa-demostracion {
-  width: 300px;
-  height: 400px;
 }
 
 /*-----*/
