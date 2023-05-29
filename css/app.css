@@ -1,12 +1,12 @@
-@media (min-width: 0px) and (max-width: 600px) {
+@media (min-width: 0px) and (max-width: 450px) {
   .contenedor-contacto {
     flex-direction: column;
   }
   .mapa {
-    padding: 10px;
+    padding: 5%;
   }
   iframe {
-    width: 500px;
+    width: 370px;
     height: 400px;
   }
 }
@@ -21,6 +21,9 @@ body {
 header .container-fluid {
   z-index: 2;
   background-color: #86fc58;
+}
+header .container-fluid #navbarSupportedContent {
+  padding: 0vh 20% 0vh 15%;
 }
 header .logo {
   width: 75px;
@@ -123,8 +126,8 @@ header .nav-item {
 .caja-de-texto-1 {
   border-style: double;
   border-color: #9400d3;
-  margin: 10px;
-  padding: 10px;
+  margin: 2%;
+  padding: 2%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -140,8 +143,8 @@ header .nav-item {
 .caja-de-texto-2 {
   border-style: double;
   border-color: #009456;
-  margin: 10px;
-  padding: 10px;
+  margin: 2%;
+  padding: 2%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -170,13 +173,17 @@ main h2 {
   font-size: 30px;
   font-weight: 600;
 }
-main .contenedor-productos {
+main .contenedor-productos2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 5%;
 }
-main .contenedor-productos .producto {
+main .contenedor-productos2 .contenedor-productos {
+  display: contents;
+}
+main .contenedor-productos2 .contenedor-productos .producto {
   background: rgb(206, 255, 136);
   background: linear-gradient(55deg, rgb(206, 255, 136) 0%, rgb(183, 255, 105) 40%, rgb(88, 255, 91) 100%);
   width: 250px;
@@ -189,26 +196,26 @@ main .contenedor-productos .producto {
   font-weight: bold;
   border-radius: 10px;
 }
-main .contenedor-productos .producto:hover {
+main .contenedor-productos2 .contenedor-productos .producto:hover {
   transform: scale(1.1);
   transition: all 0.3s ease;
 }
-main .contenedor-productos .producto img {
+main .contenedor-productos2 .contenedor-productos .producto img {
   width: 230px;
   height: 230px;
 }
-main .contenedor-productos .botones {
+main .contenedor-productos2 .botones {
   display: flex;
   text-align: center;
   font-weight: bold;
   padding: 40px;
   list-style-type: none;
 }
-main .contenedor-productos .botones li {
+main .contenedor-productos2 .botones li {
   padding: 5px;
   margin: 10px;
 }
-main .contenedor-productos .botones li .titulo-terciario {
+main .contenedor-productos2 .botones li .titulo-terciario {
   font-weight: bold;
 }
 
@@ -269,6 +276,21 @@ main .logo-presentacion img {
 }
 
 /*-----*/
+/*exclusivo pagina "cuidado de cactus"*/
+main .suculenta-demostracion {
+  width: 300px;
+  height: 200px;
+}
+main .cactus-demostracion {
+  width: 300px;
+  height: 200px;
+}
+main .crasa-demostracion {
+  width: 300px;
+  height: 400px;
+}
+
+/*-----*/
 /*exclusivo pagina "contacto"*/
 main .contenedor-contacto {
   display: flex;
@@ -281,7 +303,7 @@ main .contenedor-contacto .pie-de-mapa {
   padding-bottom: 20px;
 }
 main .contenedor-contacto .contenedor-links {
-  padding: 50px;
+  padding: 2%;
 }
 main .contenedor-contacto .contenedor-links .contenedor-links2 {
   display: flex;

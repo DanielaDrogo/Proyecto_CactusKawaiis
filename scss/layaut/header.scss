@@ -14,6 +14,9 @@ header{
     .container-fluid{
         z-index: 2;
         background-color: $color-boostrap;
+        #navbarSupportedContent{
+            padding: 0vh 20% 0vh 15%;
+        }
     }
     .logo{
         width: 75px;
