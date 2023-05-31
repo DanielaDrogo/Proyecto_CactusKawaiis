@@ -39,7 +39,7 @@
 body {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: 80px auto 130px;
+  grid-template-rows: 80px auto auto;
   grid-template-areas: "header" "main" "footer";
 }
 
