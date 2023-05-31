@@ -245,8 +245,13 @@ main .contenedor-productos2 .botones li {
   padding: 5px;
   margin: 10px;
 }
+main .contenedor-productos2 .botones li:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
 main .contenedor-productos2 .botones li .titulo-terciario {
   font-weight: bold;
+  text-decoration: none;
 }
 
 /*exclusivo de pagina index*/

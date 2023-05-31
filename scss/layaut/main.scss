@@ -97,8 +97,14 @@ main{
             li{
                 padding: 5px;
                 margin: 10px;
+                &:hover{
+                    transform: scale(1.1);
+                    transition: all 0.3s ease;
+                }
                 .titulo-terciario{
                     font-weight: bold;
+                    text-decoration: none;
+                   
                 }
             }
         }   
