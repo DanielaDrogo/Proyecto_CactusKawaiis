@@ -23,6 +23,11 @@
         height: 400px;
 
     }
+    .navbar-nav.me-auto.mb-2.mb-lg-0{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 
@@ -40,5 +45,10 @@
         width: 400px;
         height: 500px;
 
+    }
+    .navbar-nav.me-auto.mb-2.mb-lg-0{
+        width: calc(100vw - 150px);
+        display: flex;
+        justify-content: center;
     }
 }

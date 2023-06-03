@@ -21,6 +21,11 @@
     width: 300px;
     height: 400px;
   }
+  .navbar-nav.me-auto.mb-2.mb-lg-0 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }
 @media (min-width: 450px) and (max-width: 3000px) {
   .suculenta-demostracion {
@@ -34,6 +39,11 @@
   .crasa-demostracion {
     width: 400px;
     height: 500px;
+  }
+  .navbar-nav.me-auto.mb-2.mb-lg-0 {
+    width: calc(100vw - 150px);
+    display: flex;
+    justify-content: center;
   }
 }
 
