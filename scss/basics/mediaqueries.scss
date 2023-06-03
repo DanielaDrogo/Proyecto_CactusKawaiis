@@ -28,6 +28,14 @@
         display: flex;
         justify-content: center;
     }
+    .div-imagen-presentacion{
+        display: flex;
+        flex-direction: column;
+        .imagen-presentacion{
+            width: 300;
+            height: 350;
+            }
+    }
 }
 
 
@@ -51,4 +59,8 @@
         display: flex;
         justify-content: center;
     }
+    .imagen-presentacion{
+        width: 400;
+        height: 350;
+        }
 }

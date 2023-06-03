@@ -165,8 +165,12 @@ main{
             text-align: center;
             align-items: center;
             border-radius: 20px;
+            .titulo-terciario.descripcion{
+                text-shadow: 1px 1px 1px black;
+            }
             .titulo-terciario.descripcion2{
                 font-size: 20px;
+                text-shadow: 1px 1px 1px black;
             }
 
             
@@ -196,6 +200,13 @@ main{
 
 /*exclusivo pagina "sobre-cactuskawaiis"*/
 main{
+    .div-imagen-presentacion{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        
+       
+    }
     .logo-presentacion{
         width: 250px;
         height: 255px;

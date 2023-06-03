@@ -26,6 +26,14 @@
     display: flex;
     justify-content: center;
   }
+  .div-imagen-presentacion {
+    display: flex;
+    flex-direction: column;
+  }
+  .div-imagen-presentacion .imagen-presentacion {
+    width: 300;
+    height: 350;
+  }
 }
 @media (min-width: 450px) and (max-width: 3000px) {
   .suculenta-demostracion {
@@ -44,6 +52,10 @@
     width: calc(100vw - 150px);
     display: flex;
     justify-content: center;
+  }
+  .imagen-presentacion {
+    width: 400;
+    height: 350;
   }
 }
 body {
@@ -314,8 +326,12 @@ main .targeta-contacto .fondo-primario {
   align-items: center;
   border-radius: 20px;
 }
+main .targeta-contacto .fondo-primario .titulo-terciario.descripcion {
+  text-shadow: 1px 1px 1px black;
+}
 main .targeta-contacto .fondo-primario .titulo-terciario.descripcion2 {
   font-size: 20px;
+  text-shadow: 1px 1px 1px black;
 }
 
 /*-----*/
@@ -332,6 +348,11 @@ main .contenedor-selector #selector {
 
 /*-----*/
 /*exclusivo pagina "sobre-cactuskawaiis"*/
+main .div-imagen-presentacion {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
 main .logo-presentacion {
   width: 250px;
   height: 255px;

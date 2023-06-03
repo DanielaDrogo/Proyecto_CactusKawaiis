@@ -26,6 +26,14 @@
     display: flex;
     justify-content: center;
   }
+  .div-imagen-presentacion {
+    display: flex;
+    flex-direction: column;
+  }
+  .div-imagen-presentacion .imagen-presentacion {
+    width: 300;
+    height: 350;
+  }
 }
 @media (min-width: 450px) and (max-width: 3000px) {
   .suculenta-demostracion {
@@ -44,6 +52,10 @@
     width: calc(100vw - 150px);
     display: flex;
     justify-content: center;
+  }
+  .imagen-presentacion {
+    width: 400;
+    height: 350;
   }
 }
 
