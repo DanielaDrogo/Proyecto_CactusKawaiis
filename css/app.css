@@ -413,6 +413,7 @@ main .contenedor-contacto .contenedor-links {
 }
 main .contenedor-contacto .contenedor-links .contenedor-links2 {
   display: flex;
+  align-items: center;
 }
 main .contenedor-contacto .contenedor-links .contenedor-links2 .redes-icono img {
   width: 50;
