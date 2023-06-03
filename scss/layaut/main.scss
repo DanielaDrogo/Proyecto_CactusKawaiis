@@ -71,7 +71,7 @@ main{
             .producto{
                 background: rgb(206,255,136);
                 background: linear-gradient(55deg, rgba(206,255,136,1) 0%, rgba(183,255,105,1) 40%, rgba(88,255,91,1) 100%);            
-                width: 370px;               
+                /*width: 370px;*/               
                 display: inline-flex;
                 flex-direction: column;
                 align-items: center;
@@ -86,8 +86,8 @@ main{
                     cursor: pointer;
                 }
                 img{
-                    width: 330px;
-                    height: 330px; 
+                    /*width: 330px;
+                    height: 330px;*/ 
                     padding-bottom: 10px;  
                 }
                 .titulo-decimal{
@@ -158,7 +158,7 @@ main{
             transition: all 0.3s ease;
         }
         .fondo-primario{
-            width: 400px;
+            
             height: auto;
             padding: 20px;
             margin-bottom: 80px;

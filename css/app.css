@@ -2,9 +2,6 @@
   .contenedor-contacto {
     flex-direction: column;
   }
-  .mapa {
-    padding: 2%;
-  }
   iframe {
     width: 370px;
     height: 400px;
@@ -34,6 +31,17 @@
     width: 300;
     height: 350;
   }
+  .producto {
+    width: 270px;
+  }
+  .producto img {
+    width: 230px;
+    height: 230px;
+    padding-bottom: 10px;
+  }
+  .fondo-primario {
+    width: 250px;
+  }
 }
 @media (min-width: 450px) and (max-width: 3000px) {
   .suculenta-demostracion {
@@ -56,6 +64,17 @@
   .imagen-presentacion {
     width: 400;
     height: 350;
+  }
+  .producto {
+    width: 370px;
+  }
+  .producto img {
+    width: 330px;
+    height: 330px;
+    padding-bottom: 10px;
+  }
+  .fondo-primario {
+    width: 400px;
   }
 }
 body {
@@ -237,7 +256,7 @@ main .contenedor-productos2 .contenedor-productos {
 main .contenedor-productos2 .contenedor-productos .producto {
   background: rgb(206, 255, 136);
   background: linear-gradient(55deg, rgb(206, 255, 136) 0%, rgb(183, 255, 105) 40%, rgb(88, 255, 91) 100%);
-  width: 370px;
+  /*width: 370px;*/
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -253,8 +272,8 @@ main .contenedor-productos2 .contenedor-productos .producto:hover {
   cursor: pointer;
 }
 main .contenedor-productos2 .contenedor-productos .producto img {
-  width: 330px;
-  height: 330px;
+  /*width: 330px;
+  height: 330px;*/
   padding-bottom: 10px;
 }
 main .contenedor-productos2 .contenedor-productos .producto .titulo-decimal {
@@ -318,7 +337,6 @@ main .targeta-contacto:hover {
   transition: all 0.3s ease;
 }
 main .targeta-contacto .fondo-primario {
-  width: 400px;
   height: auto;
   padding: 20px;
   margin-bottom: 80px;

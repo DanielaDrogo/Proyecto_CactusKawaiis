@@ -2,9 +2,6 @@
   .contenedor-contacto {
     flex-direction: column;
   }
-  .mapa {
-    padding: 2%;
-  }
   iframe {
     width: 370px;
     height: 400px;
@@ -34,6 +31,17 @@
     width: 300;
     height: 350;
   }
+  .producto {
+    width: 270px;
+  }
+  .producto img {
+    width: 230px;
+    height: 230px;
+    padding-bottom: 10px;
+  }
+  .fondo-primario {
+    width: 250px;
+  }
 }
 @media (min-width: 450px) and (max-width: 3000px) {
   .suculenta-demostracion {
@@ -56,6 +64,17 @@
   .imagen-presentacion {
     width: 400;
     height: 350;
+  }
+  .producto {
+    width: 370px;
+  }
+  .producto img {
+    width: 330px;
+    height: 330px;
+    padding-bottom: 10px;
+  }
+  .fondo-primario {
+    width: 400px;
   }
 }
 

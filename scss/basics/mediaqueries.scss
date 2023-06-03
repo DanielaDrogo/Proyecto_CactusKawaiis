@@ -2,9 +2,6 @@
     .contenedor-contacto{
         flex-direction: column;
     }
-    .mapa{
-        padding: 2%;
-    }
     iframe{
         width: 370px;
         height: 400px;
@@ -36,6 +33,17 @@
             height: 350;
             }
     }
+    .producto{
+        width: 270px;               
+        img{
+            width: 230px;
+            height: 230px; 
+            padding-bottom: 10px;  
+        }
+    }
+    .fondo-primario{
+        width: 250px;
+    }
 }
 
 
@@ -62,5 +70,17 @@
     .imagen-presentacion{
         width: 400;
         height: 350;
+    }
+    .producto{
+        width: 370px;               
+        img{
+            width: 330px;
+            height: 330px; 
+            padding-bottom: 10px;  
         }
+       
+    }
+    .fondo-primario{
+        width: 400px;
+    }
 }
