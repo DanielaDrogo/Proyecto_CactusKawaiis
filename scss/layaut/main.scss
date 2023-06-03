@@ -2,9 +2,7 @@
     font-family: "Nunito Sans", "sans serif";
     padding: 0px;
     margin: 0px;
-
     }
-
 /*---MAIN---*/
 
 @each $nombre-color, $color in $colores{
@@ -39,8 +37,6 @@
 @include caja-de-texto("1", $color-borde);
 @include caja-de-texto("2", $color-borde2);
 
-
-
 main{
     h4{
         font-weight: bold;
@@ -70,8 +66,7 @@ main{
             display: contents;
             .producto{
                 background: rgb(206,255,136);
-                background: linear-gradient(55deg, rgba(206,255,136,1) 0%, rgba(183,255,105,1) 40%, rgba(88,255,91,1) 100%);            
-                /*width: 370px;*/               
+                background: linear-gradient(55deg, rgba(206,255,136,1) 0%, rgba(183,255,105,1) 40%, rgba(88,255,91,1) 100%);              
                 display: inline-flex;
                 flex-direction: column;
                 align-items: center;
@@ -85,9 +80,7 @@ main{
                     transition: all 0.3s ease;
                     cursor: pointer;
                 }
-                img{
-                    /*width: 330px;
-                    height: 330px;*/ 
+                img{ 
                     padding-bottom: 10px;  
                 }
                 .titulo-decimal{
@@ -95,7 +88,6 @@ main{
                     padding-left: 20px;
                     font-size: 30px;
                     font-weight: bold;
-
                 }
                 .titulo-quinario{
                     width: 100%;
@@ -128,8 +120,6 @@ main{
         }
     }    
 }
-
-
 /*exclusivo de pagina index*/
 main{
     #carouselExampleIndicators{
@@ -171,17 +161,11 @@ main{
             .titulo-terciario.descripcion2{
                 font-size: 20px;
                 text-shadow: 1px 1px 1px black;
-            }
-
-            
+            }            
         }
-
-    }
-    
+    }    
 }
 /*-----*/
-
-
 /*exclusivo pagina "productos"*/
 main{
     .contenedor-selector{
@@ -196,16 +180,12 @@ main{
     }     
 }
 /*-----*/
-
-
 /*exclusivo pagina "sobre-cactuskawaiis"*/
 main{
     .div-imagen-presentacion{
         width: 80%;
         display: flex;
-        align-items: center;
-        
-       
+        align-items: center;      
     }
     .logo-presentacion{
         width: 250px;
@@ -233,8 +213,6 @@ main{
     }
 }
 /*-----*/
-
-
 /*exclusivo pagina "contacto"*/
 main{
     .contenedor-contacto{
@@ -258,8 +236,7 @@ main{
                     }
                 }
             }
-        }
-    
+        }    
     }
 }
 /*-----*/

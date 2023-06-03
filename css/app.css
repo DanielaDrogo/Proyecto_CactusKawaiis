@@ -256,7 +256,6 @@ main .contenedor-productos2 .contenedor-productos {
 main .contenedor-productos2 .contenedor-productos .producto {
   background: rgb(206, 255, 136);
   background: linear-gradient(55deg, rgb(206, 255, 136) 0%, rgb(183, 255, 105) 40%, rgb(88, 255, 91) 100%);
-  /*width: 370px;*/
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -272,8 +271,6 @@ main .contenedor-productos2 .contenedor-productos .producto:hover {
   cursor: pointer;
 }
 main .contenedor-productos2 .contenedor-productos .producto img {
-  /*width: 330px;
-  height: 330px;*/
   padding-bottom: 10px;
 }
 main .contenedor-productos2 .contenedor-productos .producto .titulo-decimal {
