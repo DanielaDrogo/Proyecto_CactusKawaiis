@@ -1,9 +1,9 @@
 /* Error: Undefined variable.
  *    ,
- * 15 |         background-color: $color-boostrap;       
+ * 19 |         background-color: $color-boostrap;       
  *    |                           ^^^^^^^^^^^^^^^
  *    '
- *   scss\layaut\header.scss 15:27  root stylesheet */
+ *   scss\layaut\header.scss 19:27  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 15 \2502          background-color: $color-boostrap;       \d\a    \2502                            ^^^^^^^^^^^^^^^\a    \2575 \a   scss\\layaut\\header.scss 15:27  root stylesheet";
+  content: "Error: Undefined variable.\a    \2577 \a 19 \2502          background-color: $color-boostrap;       \d\a    \2502                            ^^^^^^^^^^^^^^^\a    \2575 \a   scss\\layaut\\header.scss 19:27  root stylesheet";
 }

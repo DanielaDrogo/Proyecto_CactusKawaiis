@@ -10,23 +10,28 @@ body{
 }
 /*---HEADER---*/  
 header{
+    .navbar.navbar-expand-lg.bg-body-tertiary{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
     .container-fluid{
-        z-index: 2;
         background-color: $color-boostrap;       
     }
     .logo{
         width: 75px;
         height: 80px;   
     }
-    .nav-item{
-        border-radius: 10px;
-        background: rgb(118,0,255);
-        background: radial-gradient(circle, rgba(118,0,255,1) 0%, rgba(119,28,224,1) 51%, rgba(173,104,252,1) 100%);
-        margin-left: 10px;
-        .nav-link.active{
-            color: $color-boostrap-link;
-            font-weight: bold;
-        }
-    }       
+        .nav-item{
+            border-radius: 10px;
+            background: rgb(118,0,255);
+            background: radial-gradient(circle, rgba(118,0,255,1) 0%, rgba(119,28,224,1) 51%, rgba(173,104,252,1) 100%);
+            margin-left: 10px;
+            .nav-link.active{
+                color: $color-boostrap-link;
+                font-weight: bold;
+            }
+        }  
+    }    
 }
 
