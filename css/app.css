@@ -232,7 +232,6 @@ header .navbar.navbar-expand-lg.bg-body-tertiary .nav-item .nav-link.active {
 
 main h4 {
   font-weight: bold;
-  text-transform: capitalize;
 }
 main .titulo-pagina {
   margin: 30px;
