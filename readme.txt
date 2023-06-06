@@ -1,0 +1,1 @@
+Este es un sitio web de promoción y venta de plantas.
